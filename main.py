@@ -5,8 +5,7 @@ print("We'll catagorise the expensenes into 2 main types, expenses for all and s
 
 while True:
     numberOfPeople = input("How many of us here? Ans: ")
-    # To show everything on VS code output
-    print("How many of us here? Ans: " + numberOfPeople)
+
     try:
         checkingVariable = int(numberOfPeople)
         break
@@ -20,8 +19,6 @@ listOfNames = []  # for name checking convenience in payerSubtraction() function
 for i in range(checkingVariable):
 
     theNames = input("The names (one name at a time) Ans: ")
-    # To show everything on VS code output
-    print("The names (one name at a time) Ans: " + theNames)
 
     listName.append([theNames])
     listOfNames.append(theNames)
@@ -36,8 +33,6 @@ print("Here are expenses, paid for all people.")
 while True:
 
     cost = input("How much did it cost (in £)? Ans: ")
-    # To show everything on VS code output
-    print("How much did it cost (in £)? Ans: " + cost)
 
     try:
         if cost == "Phol is brilliant":
@@ -52,8 +47,6 @@ print("Next is for-some regime!")
 
 while True:
     cost2 = input("How much did it cost (in £)? Ans: ")
-    # To show everything on VS code output
-    print("How much did it cost (in £)? Ans: " + cost)
 
     try:
         if cost2 == "Phol is brilliant":

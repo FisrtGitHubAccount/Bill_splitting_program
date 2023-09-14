@@ -7,9 +7,6 @@ def payerSubtraction(list2, costSub, listOfNames, checkingVariable):
 
     while True:
         paidByWho = input("Who paid it? Ans: ")
-        # To show everything on VS code output
-        print("Who paid it? Ans: " + paidByWho)
-
         usefulCost = -costSub
 
         if not paidByWho in listOfNames:
@@ -56,8 +53,6 @@ def expenses2(listName, cost_value2, listOfNames, checkingVariable):
     while True:
 
         howMany = input("How many people are involved in this expense? Ans: ")
-        print("How many people are involved in this expense? Ans: " +
-              howMany)  # To show everything on VS code output
 
         try:
             checkingVariable = int(howMany)
@@ -71,8 +66,6 @@ def expenses2(listName, cost_value2, listOfNames, checkingVariable):
     for q in range(int(howMany)):
 
         names = input("Who are they? (1 by 1) Ans: ")
-        # To show everything on VS code output
-        print("Who are they? (1 by 1) Ans: " + names)
 
         for m in range(checkingVariable):
             testingVariable = names in listName[m]
