@@ -1,5 +1,7 @@
 # Bill_splitting_program
 
+**Note:** This code was written as my very first Python project. It turns out there is a recentll adopted mobile application called Splitwise that solves the same problem. I guess you can all this work as Python version of Splitwise...
+
 Have you ever experienced difficulties in trasnferring money between a group of friends?
 
 If there is only one person paying, the solution is trivial, which is everyone transferring the appropriate amount to the payer.
