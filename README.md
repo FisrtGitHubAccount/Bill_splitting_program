@@ -9,4 +9,11 @@ Moreover, some people might not participate in every event so some are supposed 
 # Summary of code
 
 1. Get the number of people and their names
-2. main idea is to assign the total balance of things they used and paid for. Then minimise the number of the total transactions by using ??? algorithm (don't know its name).
+2. Creating a ledger_array to record all the expenses for each individual where negative numbers represent money out and positive for expenses unpaid by the corresponding name
+3. Separate inputs into two main categories which are
+
+- "For all" = expenses participated by everyone
+
+- "For some" = expenses participated by only some people (will be asked for more details later)
+
+4. Minimise the number of the total transactions by using the greedy algorithm.
