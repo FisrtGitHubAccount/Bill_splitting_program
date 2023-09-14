@@ -1,6 +1,7 @@
 # Bill_splitting_program
 
 Have you ever experienced difficulties in trasnferring money between a group of friends?
+
 If there is only one person paying, the solution is trivial, which is everyone transferring the appropriate amount to the payer.
 However, things get complicated when there is more than one person paying for the shared expenses. The simplest solution will become increasing more inefficent in that everyone is trasnferring money back and forth.
 
